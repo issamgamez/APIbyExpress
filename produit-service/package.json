@@ -1,0 +1,22 @@
+{
+  "name": "produit-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "comments": "(this property(comments) is added by mine)when we replace acripts.test value by nodemon index.js : when we execute 'npm run test' in terminal => nodemon index.js is executed",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.11",
+    "nodemon": "^3.0.1"
+  }
+}
